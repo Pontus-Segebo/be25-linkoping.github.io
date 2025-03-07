@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #0F0E0E;
+    padding: 2rem;
+    height: 3000px;
+}
+
+h1 {
+    color: #FFDE86;
+
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+#header {
+    color: antiquewhite;
+}
+
+.hide {
+    display: none;
+}
+
+.hero_image {
+    width: 35%;
+    height: 35%;
+    display: flex;
+    align-content: center;
+}
+
+.hero_bottom span {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: sticky;
+    top: 15px;
+}
+
+.nav ul li a:hover {
+    background-color: rgba(66, 66, 66, 0.5);
+    border-radius: 10em;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Navbar */
+nav ul li  a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem;
+}
+
+nav ul li  a:focus {
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgba(78, 78, 78, 0.5);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10em;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.nav  ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* Mobile First */
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.8rem; }
+
+/* Tablet */
+@media (min-width: 768px) {
+    h1 { font-size: 3.5rem;  color: white; }
+    h2 { font-size: 2.5rem; }
+    h3 { font-size: 2rem; }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    h1 { font-size: 8rem; }
+    h2 { font-size: 3rem; }
+    h3 { font-size: 2.5rem; }
+}
+
+  
