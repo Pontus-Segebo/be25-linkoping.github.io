@@ -10,7 +10,6 @@ body {
     font-optical-sizing: auto;
     background-color: #0F0E0E;
     padding: 2rem;
-    height: 3000px;
 }
 
 h1 {
@@ -86,6 +85,10 @@ ul {
     justify-content: space-between;
     align-items: center;
     color: white;
+}
+
+.footer {
+    color: gray;
 }
 
 /* Mobile First */
